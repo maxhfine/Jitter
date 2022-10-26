@@ -49,7 +49,7 @@ class TwerpsControllerTest < ActionDispatch::IntegrationTest
   test 'should have right home page title' do
     get "/"
     assert_response :success
-    assert_select 'h1', 'Welcome to the Jitter Homepage!'
+    assert_select 'h1', 'Welcome to Maxs Incredible Jitter Homepage!'
   end
 
 end
